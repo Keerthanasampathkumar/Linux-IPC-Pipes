@@ -25,7 +25,7 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-```
+```c
 #include<stdlib.h>
 #include<sys/types.h> 
 #include<sys/stat.h> 
@@ -88,7 +88,7 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
-```
+```c
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
